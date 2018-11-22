@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class ReadHello {
 	
-	public static final String SEARCH_TARGET = "Hello You";
+	public static final String SEARCH_TARGET = "yi";
 
 	public static void main(String[] args) {
 	 reader.readLine();
