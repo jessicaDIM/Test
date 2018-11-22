@@ -11,23 +11,7 @@ public class ReadHello {
 	public static final String SEARCH_TARGET = "Hello";
 
 	public static void main(String[] args) {
-		String path = args.length > 0 ? args[0] : "";
-		File f = new File(path);
-		try {
-			if (f.exists() && f.canRead()) {
-				BufferedReader reader = new BufferedReader(new FileReader(f));
-				boolean found = false;
-				String line = reader.readLine();
-				while (line != null) {
-					if (line.contains(ReadHello.SEARCH_TARGET)) {
-						found = true;
-						break;
-					}
-					line = reader.readLine();
-					if (f.exists() && f.canRead()) {
-				BufferedReader reader = new BufferedReader(new FileReader(f));
-				boolean found = false;
-				String line = reader.readLine();
+	 reader.readLine();
 				while (line != null) {
 					if (line.contains(ReadHello.SEARCH_TARGET)) {
 						found = true;
